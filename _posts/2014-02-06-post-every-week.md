@@ -1,4 +1,5 @@
 ---
+status: publish
 layout: post
 title: "A blog post, every week"
 tags: [blogging]
