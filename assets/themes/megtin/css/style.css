@@ -3,7 +3,7 @@
 @import "oswald.css";
 
 body {
-    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif, 宋体;
+    font-family: "Hiragino Sans GB", oswald, droidsans，serif;
     background-color: #fff;
     color: #333;
 }
@@ -76,7 +76,7 @@ body {
 }
 
 h1,h2,h3,h4 {
-    font-family: "宋体", "Times New Roman", Times, oswald，serif;
+    font-family: "Hiragino Sans GB", oswald, droidsans， serif;
     line-height: 1em;
 }
 
