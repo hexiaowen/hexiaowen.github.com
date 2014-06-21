@@ -3,7 +3,7 @@
 @import "oswald.css";
 
 body {
-    font-family: "Droid Sans", sans-serif;
+    font-family: "宋体", "Times New Roman", Times, serif;
     background-color: #fff;
     color: #3f3f3f;
 }
@@ -76,7 +76,7 @@ body {
 }
 
 h1,h2,h3,h4 {
-    font-family: Oswald, sans;
+    font-family: "宋体", "Times New Roman", Times, serif;
     line-height: 1em;
 }
 
