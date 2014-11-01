@@ -6,7 +6,6 @@ layout: page
   <ul class="home" style="list-style:none;">
   {% for post in site.posts limit:10 %}
     <li><h3 style="font-weight:normal;">{{ post.date | date_to_string }} &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3></li>
-    <p>{{ post.excerpt }}</p>
  {% endfor %}
   </ul>
   <div id="about-me" style="background: #3A3A3F; color: #DDD; border-radius: 20px; padding: 25px; margin-top: 50px;">
