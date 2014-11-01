@@ -20,24 +20,6 @@ group: navigation
   </div>
 {% endfor %}
 
-<!-- 分页链接 -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
-注意首尾页
-Jekyll 没有生成文件夹 ‘page1’ ，所以上边的代码有 bug ，下边的代码解决了这个问题。
-下边的 HTML 片段是第一页，他除自己外，为每个页面生成了链接。
-
 <div id="post-pagination" class="pagination">
   {% if paginator.previous_page %}
     <p class="previous">
