@@ -12,7 +12,7 @@ body {
     text-decoration: none;
     color: #222;
     font-size: 2.2em;
-    font-family: Oswald,Arial,Helvetica,sans-serif;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
     letter-spacing: -0.06em;
     font-weight:bold;
     text-shadow: 1px 1px 1px rgb(119, 119, 119);
@@ -47,7 +47,7 @@ body {
     font-size: 1.1em;
     padding: 0.35em;
     font-weight: bold;
-    font-family: Oswald, Arial, Helvetica, sans-serif;
+    font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
 }
 
 .content-main {
